@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import App from './component/app';
+import App from './container/app';
 
 class Calculator extends Component {
   render() {
     return (
-      { () => App }
+      <App/>
     );
   }
 };
